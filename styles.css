@@ -62,8 +62,10 @@ textarea:focus {
     background-color: #273c75;
 }
 
-@media (min-width: 700px) {
+@media (max-width: 700px) {
     h1 {
-        font-size-adjust: 4rem/2;
+        font-size: 2rem;
     }
+    .container {
+        width: 400px;
 }
